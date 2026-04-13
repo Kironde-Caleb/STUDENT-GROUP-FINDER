@@ -8,7 +8,9 @@ import Page2 from './Page2';
 import Page3 from './Page3';
 import Page4 from './Page4';
 import Page5 from './Page5';
-import Page6 from './Page6';
+import Page6 from './Page6'; 
+import Register from './Register';
+import Login from './Login';
 
 function App() {
   return (
@@ -19,19 +21,21 @@ function App() {
             UCU CONNECT
           </Typography>
           <Box>
-            <Button color="inherit" component={Link} to="/">Home</Button>
-            <Button color="inherit" component={Link} to="/page2">Create</Button>
+            <Button color="inherit" component={Link} to="/">Create</Button>
             <Button color="inherit" component={Link} to="/page3">View</Button>
             <Button color="inherit" component={Link} to="/page4">Admin</Button>
             <Button color="inherit" component={Link} to="/page5">Profile</Button>
             <Button color="inherit" component={Link} to="/page6">Help</Button>
+            <Button color="inherit" component={Link} to="/">Logout</Button>
           </Box>
         </Toolbar>
       </AppBar>
 
       <Container sx={{ mt: 4 }}>
         <Routes>
-          <Route path="/" element={<Page1 />} />
+          <Route path="/" element={<Login />} />
+          <Route path="/Register" element={<Register />} />
+          <Route path="/page1" element={<Page1 />} />
           <Route path="/page2" element={<Page2 />} />
           <Route path="/page3" element={<Page3 />} />
           <Route path="/page4" element={<Page4 />} />

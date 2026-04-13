@@ -7,10 +7,117 @@
       "location": "UCU Library Block B"
     },
     {
-      "groupName": "Pythoncrats",
-      "course": "WEB AND MOBLIE APPLICATIONS ",
-      "location": "HAM MUKASA LIBRARY",
-      "id": "jTTb9vKAN34"
+      "groupName": "ChristLike",
+      "course": "123",
+      "location": "BSIT",
+      "id": "0jP_UKNMo-c"
+    },
+    {
+      "groupName": "Caleb",
+      "course": "Acting",
+      "location": "Noll block",
+      "id": "FlyRgtPPOLs"
+    },
+    {
+      "groupName": "ChristLike",
+      "course": "123455",
+      "location": "ChristLike",
+      "id": "gbQ1-VuERC0"
+    },
+    {
+      "groupName": "Actus",
+      "course": "Acting",
+      "location": "ChristLike",
+      "id": "9PEmXFiJGrA"
+    },
+    {
+      "groupName": "ChristLike",
+      "course": "123",
+      "location": "BSIT",
+      "id": "iv7O7dLbme8"
+    }
+  ],
+  "users": [
+    {
+      "FirstName": "Caleb",
+      "SecondName": "Kironde",
+      "Username": "ChristLike",
+      "Password": "123",
+      "Course": "BSIT",
+      "year": "2026",
+      "id": "w-fuAEBAMcY"
+    },
+    {
+      "FirstName": "Actus",
+      "SecondName": "Actus",
+      "Username": "Actus",
+      "Password": "123",
+      "Course": "BSIT",
+      "year": "2026",
+      "id": "vvvjU-vb2Ko"
+    },
+    {
+      "FirstName": "Bwayo",
+      "SecondName": "Genevieve",
+      "Username": "Bwayo",
+      "Password": "123",
+      "Course": "BSIT",
+      "year": "2026",
+      "id": "vuTpKHqcQc4"
+    },
+    {
+      "FirstName": "Zaina",
+      "SecondName": "Manuella",
+      "Username": "Manuella",
+      "Password": "123",
+      "Course": "BSIT",
+      "year": "2026",
+      "id": "f1bUklGgCaA"
+    },
+    {
+      "FirstName": "Preciuos",
+      "SecondName": "Nekuse",
+      "Username": "Pec",
+      "Password": "123",
+      "Course": "BSIT",
+      "year": "2026",
+      "id": "2_JnHjtnpV0"
+    },
+    {
+      "FirstName": "",
+      "SecondName": "",
+      "Username": "",
+      "Password": "",
+      "Course": "",
+      "year": "",
+      "id": "dmmMRxf8hL4"
+    },
+    {
+      "FirstName": "dd",
+      "SecondName": "dddddd",
+      "Username": "ddddd",
+      "Password": "dddd",
+      "Course": "dddddd",
+      "year": "dd",
+      "id": "aaczXi40HEw"
+    },
+    {
+      "FirstName": "Caleb",
+      "SecondName": "Kironde",
+      "Username": "caleb",
+      "Password": "123",
+      "Course": "BSIT",
+      "year": "2026",
+      "id": "4rrfOgYXbbk"
+    },
+    {
+      "FirstName": "",
+      "SecondName": "",
+      "Username": "ssssssss",
+      "Password": "sssssss",
+      "Course": "",
+      "year": "",
+      "id": "lvPdr-hLchM"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
