@@ -13,7 +13,7 @@ import Page6 from './Page6';
 function App() {
   return (
     <Router>
-      <AppBar position="static" sx={{ background: 'linear-gradient(45deg, #1a237e 30%, #0d47a1 90%)' }}>
+      <AppBar position="static" sx={{ background: 'linear-gradient(45deg, #020309 30%, #03080e 90%)' }}>
         <Toolbar>
           <Typography variant="h6" sx={{ flexGrow: 1, fontWeight: 'bold' }}>
             UCU CONNECT
