@@ -1,0 +1,46 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { AppBar, Toolbar, Typography, Button, Container, Box } from '@mui/material';
+
+
+import Page1 from './Page1';
+import Page2 from './Page2';
+import Page3 from './Page3';
+import Page4 from './Page4';
+import Page5 from './Page5';
+import Page6 from './Page6';
+
+function App() {
+  return (
+    <Router>
+      <AppBar position="static" sx={{ background: 'linear-gradient(45deg, #1a237e 30%, #0d47a1 90%)' }}>
+        <Toolbar>
+          <Typography variant="h6" sx={{ flexGrow: 1, fontWeight: 'bold' }}>
+            UCU CONNECT
+          </Typography>
+          <Box>
+            <Button color="inherit" component={Link} to="/">Home</Button>
+            <Button color="inherit" component={Link} to="/page2">Create</Button>
+            <Button color="inherit" component={Link} to="/page3">View</Button>
+            <Button color="inherit" component={Link} to="/page4">Admin</Button>
+            <Button color="inherit" component={Link} to="/page5">Profile</Button>
+            <Button color="inherit" component={Link} to="/page6">Help</Button>
+          </Box>
+        </Toolbar>
+      </AppBar>
+
+      <Container sx={{ mt: 4 }}>
+        <Routes>
+          <Route path="/" element={<Page1 />} />
+          <Route path="/page2" element={<Page2 />} />
+          <Route path="/page3" element={<Page3 />} />
+          <Route path="/page4" element={<Page4 />} />
+          <Route path="/page5" element={<Page5 />} />
+          <Route path="/page6" element={<Page6 />} />
+        </Routes>
+      </Container>
+    </Router>
+  );
+}
+
+export default App;

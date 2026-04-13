@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "id": "1",
+      "groupName": "BSIT Networking Study",
+      "course": "Computer Networks",
+      "location": "UCU Library Block B"
+    },
+    {
+      "groupName": "Pythoncrats",
+      "course": "WEB AND MOBLIE APPLICATIONS ",
+      "location": "HAM MUKASA LIBRARY",
+      "id": "jTTb9vKAN34"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
