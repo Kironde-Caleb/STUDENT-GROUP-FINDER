@@ -54,6 +54,65 @@
       "id": "vuTpKHqcQc4"
     },
     {
+      "groupName": "ChristLike",
+      "course": "123",
+      "location": "BSIT",
+      "id": "0jP_UKNMo-c"
+    },
+    {
+      "groupName": "Caleb",
+      "course": "Acting",
+      "location": "Noll block",
+      "id": "FlyRgtPPOLs"
+    },
+    {
+      "groupName": "ChristLike",
+      "course": "123455",
+      "location": "ChristLike",
+      "id": "gbQ1-VuERC0"
+    },
+    {
+      "groupName": "Actus",
+      "course": "Acting",
+      "location": "ChristLike",
+      "id": "9PEmXFiJGrA"
+    },
+    {
+      "groupName": "ChristLike",
+      "course": "123",
+      "location": "BSIT",
+      "id": "iv7O7dLbme8"
+    }
+  ],
+  "users": [
+    {
+      "FirstName": "Caleb",
+      "SecondName": "Kironde",
+      "Username": "ChristLike",
+      "Password": "123",
+      "Course": "BSIT",
+      "year": "2026",
+      "id": "w-fuAEBAMcY"
+    },
+    {
+      "FirstName": "Actus",
+      "SecondName": "Actus",
+      "Username": "Actus",
+      "Password": "123",
+      "Course": "BSIT",
+      "year": "2026",
+      "id": "vvvjU-vb2Ko"
+    },
+    {
+      "FirstName": "Bwayo",
+      "SecondName": "Genevieve",
+      "Username": "Bwayo",
+      "Password": "123",
+      "Course": "BSIT",
+      "year": "2026",
+      "id": "vuTpKHqcQc4"
+    },
+    {
       "FirstName": "Zaina",
       "SecondName": "Manuella",
       "Username": "Manuella",
@@ -106,33 +165,6 @@
       "Course": "",
       "year": "",
       "id": "lvPdr-hLchM"
-    },
-    {
-      "FirstName": "Mesh",
-      "SecondName": "Mugisha",
-      "Username": "Mesh",
-      "Password": "1234",
-      "Course": "BSIT",
-      "year": "2026",
-      "id": "l2excu7ynLY"
-    },
-    {
-      "FirstName": "EEE",
-      "SecondName": "WWWWWW",
-      "Username": "WWWWWWWW",
-      "Password": "DDDD",
-      "Course": "DDDDDDD",
-      "year": "DDD",
-      "id": "Ud7G4rofsos"
-    },
-    {
-      "FirstName": "ZAYNA",
-      "SecondName": "MANU",
-      "Username": "ZAYNA",
-      "Password": "ZAAAA",
-      "Course": "BSIT",
-      "year": "2026",
-      "id": "k6Rec7McOeQ"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

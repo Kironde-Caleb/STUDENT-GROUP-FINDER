@@ -11,13 +11,13 @@ export default function Register() {
   const handleSubmit2 = async (e) => {
     e.preventDefault();
 
-    if (!form2.Username || !form2.Password) {
+    if (!form2.Username || !form2.Password || form2.FirstName || form2.SecondName || form2.Course || form2.year) {
     alert("Please fill in all fields");
     return;
   }
 
     await axios.post('http://localhost:5000/users', form2);
-    alert("Registered successfully");
+    alert("Registerred successfully");
     navigate("/")
     setForm2({ FirstName: '', SecondName: '', Username: '', Password: '', Course: '' , year: '' });
   };
